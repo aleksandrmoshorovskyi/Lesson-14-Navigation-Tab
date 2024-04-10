@@ -13,6 +13,10 @@
 		A8AC3DF82BC4514800C11D39 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A8AC3DF72BC4514800C11D39 /* Base */; };
 		A8AC3DFA2BC4514900C11D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8AC3DF92BC4514900C11D39 /* Assets.xcassets */; };
 		A8AC3DFD2BC4514900C11D39 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A8AC3DFC2BC4514900C11D39 /* Base */; };
+		A8AC3E052BC4520400C11D39 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC3E042BC4520400C11D39 /* GreenViewController.swift */; };
+		A8AC3E072BC58B2600C11D39 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC3E062BC58B2600C11D39 /* RedViewController.swift */; };
+		A8AC3E092BC58BA000C11D39 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC3E082BC58BA000C11D39 /* PurpleViewController.swift */; };
+		A8AC3E0B2BC5AC0D00C11D39 /* MyTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AC3E0A2BC5AC0D00C11D39 /* MyTabbarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A8AC3DF92BC4514900C11D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8AC3DFC2BC4514900C11D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8AC3DFE2BC4514900C11D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8AC3E042BC4520400C11D39 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		A8AC3E062BC58B2600C11D39 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		A8AC3E082BC58BA000C11D39 /* PurpleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
+		A8AC3E0A2BC5AC0D00C11D39 /* MyTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabbarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				A8AC3DF02BC4514800C11D39 /* AppDelegate.swift */,
 				A8AC3DF22BC4514800C11D39 /* SceneDelegate.swift */,
 				A8AC3DF42BC4514800C11D39 /* ViewController.swift */,
+				A8AC3E042BC4520400C11D39 /* GreenViewController.swift */,
+				A8AC3E062BC58B2600C11D39 /* RedViewController.swift */,
+				A8AC3E082BC58BA000C11D39 /* PurpleViewController.swift */,
+				A8AC3E0A2BC5AC0D00C11D39 /* MyTabbarController.swift */,
 				A8AC3DF62BC4514800C11D39 /* Main.storyboard */,
 				A8AC3DF92BC4514900C11D39 /* Assets.xcassets */,
 				A8AC3DFB2BC4514900C11D39 /* LaunchScreen.storyboard */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8AC3E072BC58B2600C11D39 /* RedViewController.swift in Sources */,
+				A8AC3E052BC4520400C11D39 /* GreenViewController.swift in Sources */,
+				A8AC3E092BC58BA000C11D39 /* PurpleViewController.swift in Sources */,
 				A8AC3DF52BC4514800C11D39 /* ViewController.swift in Sources */,
 				A8AC3DF12BC4514800C11D39 /* AppDelegate.swift in Sources */,
 				A8AC3DF32BC4514800C11D39 /* SceneDelegate.swift in Sources */,
+				A8AC3E0B2BC5AC0D00C11D39 /* MyTabbarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
